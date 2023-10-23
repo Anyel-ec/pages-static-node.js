@@ -22,8 +22,8 @@ app.set('view engine', 'ejs')
 
 // llamar las rutas
 app.use('/', indexRouter)
-
-
+// llamar la carpeta public el archivo de main css
+app.use(express.static(join(__dirname, '/public')))
 
 
 

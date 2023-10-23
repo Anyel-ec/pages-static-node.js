@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> <%= title %> </title>
+    <%- include ('partials/head')%>
+
 </head>
 <body>
-    <h1><%= message %></h1>
-</body>
+    <%- include ('partials/navigation')%>
+    <div class="container">
+        <h1><%= message %></h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque placeat facere delectus laborum sunt eius libero iusto asperiores suscipit ipsum, magni sapiente aliquam provident, itaque, ad labore culpa assumenda corrupti iste error. Vero distinctio asperiores, fuga dignissimos exercitationem laboriosam laborum quis eius at quisquam dolores corrupti similique voluptatem itaque voluptatum. </p>
+    
+    </div>
+    </body>
 </html>
